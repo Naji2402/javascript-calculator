@@ -1,0 +1,31 @@
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    margin-right: 20px;
+    height: 60px;
+    width: 100px;
+    border:none ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    transition: all 0.3s ease;
+}
+.btn button:hover{
+    background-color: rgba(0, 0, 0, 0.427);
+    font-size: 25px;
+}
+.btn button:active{
+    background-color: red;
+}
